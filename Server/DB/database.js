@@ -1,7 +1,6 @@
 const mongoose = require("mongoose");
 mongoose.set("strictQuery", false);   //its just to avoid deprecate warning (Optional)
 
-
 //MongoDb Connection String
 const conStr = process.env.Database;
 
@@ -15,3 +14,4 @@ mongoose.connect(conStr, {
   .catch((err) => console.log(err));
 
 
+ 
