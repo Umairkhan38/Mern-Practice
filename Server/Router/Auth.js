@@ -74,12 +74,13 @@ router.post("/register", async (req, res) => {
   }
 });
 
+
+
 router.post("/login", async (req, res) => {
   const { email, password } = req.body;
   if (!email || !password) {
     return res.status(422).json({ error: "please enter login details" });
   }
-
 
   try {
     const exist = await User.findOne({ email });
@@ -148,10 +149,8 @@ catch(err){
   console.log(err)
 }
 
-
 })
 
 
 module.exports = router;
-
 

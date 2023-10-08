@@ -30,6 +30,7 @@ function Home() {
   
 
 
+  
   return (
     <div className="d-flex text-center align-items-center text-bg-dark container w-100" 
   style={{height:'91vh',backgroundImage:"url(https://images.unsplash.com/photo-1544099858-75feeb57f01b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGxhcHRvcHN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60)", backgroundRepeat:'no-repeat',backgroundPosition:'center',backgroundSize:'1500px' }} >

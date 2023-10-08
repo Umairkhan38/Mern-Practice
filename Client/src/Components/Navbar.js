@@ -10,7 +10,6 @@ function Navbar() {
 
   const {state,dispatch}=useContext(userContext);
   console.log(state);
-  
 
   return (
     <nav className="navbar navbar-expand-lg  bg-light shadow-sm bg-body-tertiary rounded">
